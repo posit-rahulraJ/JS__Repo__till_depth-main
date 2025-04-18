@@ -1,11 +1,3 @@
-You're practicing some excellent core JavaScript fundamentals here! 🙌  
-Let me refine your code a bit, correct a small typo in the comment, and give you a **clear breakdown** of what you're doing, plus where this is used in **real tech stacks**.
-
----
-
-### ✅ Cleaned & Explained Version:
-
-```js
 // -----------------------------
 // 🔒 const, let, and var
 // -----------------------------
@@ -35,35 +27,3 @@ var bookisher = 4545;
 console.log(accountId);  // 144553
 console.log(bookish);    // 9999
 console.log(bookisher);  // 4545
-```
-
----
-
-### ⚠️ Corrections:
-- In your comment, you wrote: `/* comst cant be changed... */`  
-  ✅ Correct spelling: `const can't be changed`
-
----
-
-### 🧠 Tech Stack Use-Cases:
-
-| Use-Case                                   | Keyword   | Why?                              |
-|--------------------------------------------|-----------|-----------------------------------|
-| Fixed configuration (e.g., API keys)       | `const`   | Prevent accidental changes        |
-| Loop counters or temporary variables       | `let`     | Value changes inside loops/blocks |
-| Legacy code or function-scoped vars        | `var`     | Only for maintaining old code     |
-
----
-
-### 🔥 Pro Tip (Interview Use):
-
-**Q: Why is `const` preferred in modern JavaScript?**  
-🧠 Because it helps **prevent bugs** by making sure values that shouldn't change *actually* don’t change. Most modern tools (like ESLint, Prettier) recommend using `const` by default, and only use `let` if reassignment is necessary.
-
----
-
-### 📌 Want to Try a Quick Challenge?
-
-> 🧩 Create a small function that uses `let` in a loop, `const` for constants, and show why `var` might cause bugs!
-
-Let me know if you'd like a demo or want to try yourself!
