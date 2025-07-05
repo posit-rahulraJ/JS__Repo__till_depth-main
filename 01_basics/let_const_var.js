@@ -11,8 +11,6 @@
 📌 Comparison:
 
 
-
-
 Keyword   | Scope          | Hoisting               | Reassignment | Redeclaration
 ----------|----------------|------------------------|--------------|---------------
 var       | Function-scoped| Yes                    | ✅ Yes       | ✅ Yes
