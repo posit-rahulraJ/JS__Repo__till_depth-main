@@ -10,6 +10,7 @@
 
 📌 Comparison:
 
+
 Keyword   | Scope          | Hoisting               | Reassignment | Redeclaration
 ----------|----------------|------------------------|--------------|---------------
 var       | Function-scoped| Yes                    | ✅ Yes       | ✅ Yes
@@ -17,13 +18,13 @@ let       | Block-scoped   | Yes (TDZ - uninitialized) | ✅ Yes    | ❌ No
 const     | Block-scoped   | Yes (TDZ - uninitialized) | ❌ No    | ❌ No
 */
 
-const accountId = 144553;
+const accountI = 144553;
 let bookish = 9999;
 var bookisher = 4545;
 
 // ❌ Error: Assignment to constant variable
 // accountId = 2
 
-console.log(accountId);  // 144553
+console.log(accountI);  // 144553
 console.log(bookish);    // 9999
 console.log(bookisher);  // 4545
